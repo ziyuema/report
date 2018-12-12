@@ -29,8 +29,8 @@ distance) between chosen vectors. Then the  indices of the maximum values
 of the nearest vectors along the given axis are returned. ]
 
 ## Error Correction (Max 200 Words)
-[Upload a clear dictionary and wrote some about how to detect sequential
-characters are words or not.]
+[Upload a clear dictionary and attempt to write a function about how to detect 
+sequential characters whether they are words or not.]
 
 ## Performance
 
