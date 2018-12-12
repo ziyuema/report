@@ -2,7 +2,8 @@
 
 ## Feature Extraction (Max 200 Words)
 
-[In order to complete the feature extraction, we have 2 steps before 
+[In the Feature section, I choose PCA method as my solution. 
+In order to complete the feature extraction, we have 2 steps before 
 we reduce dimensions to finish: feature normalization and zero mean
 normalization. The process can be regarded as finding new vectors from
 original vectors and project it onto the PCA axes. Take n-Dimensions to
@@ -17,13 +18,19 @@ produce the final feature vector.]
 
 ## Classifier (Max 200 Words)
 
-[Describe and justify the design of your classifier and any
-associated classifier training stage.]
+[In the classifier section, I chose Nearest Neighbor Classifier as my
+preferred classifier according its convience. The Nearest
+Neighbor Classifier doesn't need to consider the format and data of each spiece as
+a non-parametric method. The first step is to identify whether the feature 
+already has or not. Depend on the situation, we can use all feature if 0 
+feature parameter has been supplied. Desired features chosen from training
+and test data was then selected in order to calculate the distance(cosine 
+distance) between chosen vectors. Then the  indices of the maximum values 
+of the nearest vectors along the given axis are returned. ]
 
 ## Error Correction (Max 200 Words)
-
-[Describe and justify the design of any post classification error
-correction that you may have attempted.]
+[Upload a clear dictionary and wrote some about how to detect sequential
+characters are words or not.]
 
 ## Performance
 
